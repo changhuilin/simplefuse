@@ -1,0 +1,11 @@
+# Build with debug logging. Turn off for performance testing and normal usage
+CONFIG_DEBUG=y
+
+# This directory should contain 'include' and 'lib' directories for your DPDK
+# installation. Alternatively you can specify this on the command line
+# with 'make DPDK_DIR=/path/to/dpdk'.
+CONFIG_DPDK_DIR=$(HOME)/repository/dpdk/x86_64-native-linuxapp-gcc
+
+CONFIG_SPDK_DIR=$(HOME)/repository/spdk
+
+
