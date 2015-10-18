@@ -1,10 +1,7 @@
 
-SIMPLE_FUSE_ROOT_DIR := $(CURDIR)
-export SIMPLE_FUSE_ROOT_DIR
-
 include $(SIMPLE_FUSE_ROOT_DIR)/mk/simplefuse.common.mk
 
-DIRS-y += examples
+DIRS-y += perf
 
 .PHONY: all clean $(DIRS-y)
 

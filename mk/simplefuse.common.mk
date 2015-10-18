@@ -1,6 +1,9 @@
 
 include $(SIMPLE_FUSE_ROOT_DIR)/CONFIG
 
+CC = gcc
+CXX = g++
+
 Q ?= #@
 S ?= $(notdir $(CURDIR))
 
