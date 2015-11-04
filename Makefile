@@ -4,7 +4,7 @@ export SIMPLE_FUSE_ROOT_DIR
 
 include $(SIMPLE_FUSE_ROOT_DIR)/mk/simplefuse.common.mk
 
-DIRS-y += examples
+DIRS-y += examples src
 
 .PHONY: all clean $(DIRS-y)
 
